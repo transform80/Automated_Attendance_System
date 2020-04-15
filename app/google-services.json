@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "327823311530",
+    "firebase_url": "https://attendance-monitor-2a43a.firebaseio.com",
+    "project_id": "attendance-monitor-2a43a",
+    "storage_bucket": "attendance-monitor-2a43a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327823311530:android:231028249322017f",
+        "android_client_info": {
+          "package_name": "com.dcnproject.yashdani.attendance_monitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327823311530-ei3utd5th21dfjv3rp6tqhqc83ntgsvl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dcnproject.yashdani.attendance_monitor",
+            "certificate_hash": "a228a4c71da7f8b803ee793995b86be23994ce87"
+          }
+        },
+        {
+          "client_id": "327823311530-6l7at412u61gh9gcvf3bl5jng112crlg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFDVYDWUf81SXeONaFcBFLJ1fg9oTI8hk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327823311530-6l7at412u61gh9gcvf3bl5jng112crlg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

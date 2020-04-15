@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.dcnproject.yashdani.attendance_monitor.TakeAttendance">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/pin"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:ems="10"
+            android:theme="@style/EditTextTheme"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPersonName"
+            android:hint="PIN"
+            android:textAlignment="center"/>
+        <Button
+            android:id="@+id/confirmBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button"
+            android:layout_below="@+id/pin"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/doneButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:background="@drawable/button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

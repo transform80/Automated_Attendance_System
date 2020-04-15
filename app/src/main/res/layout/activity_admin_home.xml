@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3f2fd"
+    tools:context="com.dcnproject.yashdani.attendance_monitor.AdminHome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Class"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Spinner
+            android:id="@+id/classSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/all_spinners"
+            android:popupBackground="@color/colorBackground"
+            android:layout_below="@+id/textView18"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Subject"
+            android:textStyle="bold"
+            android:layout_below="@+id/classSpinner"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Spinner
+            android:id="@+id/subjectSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/all_spinners"
+            android:popupBackground="@color/colorBackground"
+            android:layout_below="@+id/textView19"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"/>
+
+        <Button
+            android:id="@+id/takeAttendance"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Take attendance"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/colorPurple"
+            android:background="@drawable/button"
+            android:elevation="2mm"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:layout_marginLeft="98dp"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

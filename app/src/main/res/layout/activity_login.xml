@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.dcnproject.yashdani.attendance_monitor.Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textAllCaps="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-mail:"
+            android:layout_below="@+id/textView6"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/emailLogin"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/textView8"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:theme="@style/EditTextTheme"
+            android:inputType="textPersonName"
+            android:hint="eg.xyz@ce.vjti.ac.in"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textSize="20sp"
+            android:layout_below="@+id/emailLogin"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/passwordLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView9"
+            android:ems="10"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="10dp"
+            android:theme="@style/EditTextTheme"
+            android:hint="eg.gbfg7hja"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textAllCaps="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:background="@drawable/button"
+            android:layout_marginLeft="53dp"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

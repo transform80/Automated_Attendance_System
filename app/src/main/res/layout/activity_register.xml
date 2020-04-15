@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.dcnproject.yashdani.attendance_monitor.Register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Register"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/textView10"
+            android:textSize="19sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="NAME:" />
+
+        <EditText
+            android:id="@+id/nameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditTextTheme"
+            android:ems="10"
+            android:layout_below="@+id/textView11"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="10dp"
+            android:inputType="textPersonName"
+            android:hint="eg. Dave Lee" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:id="@+id/textView111"
+            android:layout_below="@id/nameRegister"
+            android:text="E-mail:" />
+
+        <EditText
+            android:id="@+id/emailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:layout_below="@+id/textView111"
+            android:theme="@style/EditTextTheme"
+            android:textColor="@color/colorPrimaryDark"
+            android:inputType="textPersonName"
+            android:hint="eg.xyz@ce.vjti.ac.in" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/emailRegister"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:text="Class:" />
+
+        <Spinner
+            android:id="@+id/classRegisterSpinner"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/textView12"
+            android:popupBackground="@color/colorBackground"
+            android:clickable="true"
+            android:background="@drawable/all_spinners"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/pass"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/classRegisterSpinner"
+            android:textSize="19sp"
+            android:text="Password:" />
+
+        <EditText
+            android:id="@+id/passwordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditTextTheme"
+            android:ems="10"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/pass"
+            android:hint="eg.ahsh45t"
+            android:textColor="@color/colorPrimaryDark"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/studentreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/button"
+                android:text="REGISTER"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPurple"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
